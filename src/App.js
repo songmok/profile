@@ -12,6 +12,8 @@ import Youtube from "./components/sub/Youtube";
 import Community from "./components/sub/Community";
 import Location from "./components/sub/Location";
 import Gallery from "./components/sub/Gallery";
+// scss
+import "./scss/style.scss";
 function App() {
   return (
     <>
