@@ -6,6 +6,7 @@ header {
     width: 1180px;
     height: 80px;
     margin: 0 auto;
+
     h1 {
       position: absolute;
       bottom: 20px;
@@ -48,11 +49,11 @@ header {
     background: transparent;
   }
 }
+// tablet
 @media screen and (max-width: $tablet) {
   header {
     .inner {
       width: 100%;
-
       h1 {
         left: 30px;
       }

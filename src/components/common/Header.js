@@ -1,14 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
-// fontAwsome 적용
+// FontAwsome 적용
 // https://fontawesome.com/v5/docs/web/use-with/react
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-/*
-  NavLink 
-  : 객체를 이용해서 포커스 스타일 적용
-  : activeStyle="CSS객체" 이라는 props 에 적용
-  : to="URI" props 는 필수
-*/
 
 const Header = (props) => {
   const active = { color: "hotpink" };
