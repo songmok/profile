@@ -8,8 +8,9 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <script
       type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 넣으시면 됩니다."
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a209e005ff563e5b9dacb6ce1edbd3d9"
     ></script>
+
     <title>React App</title>
   </head>
   <body>
@@ -17,3 +18,35 @@
     <div id="root"></div>
   </body>
 </html>
+.Location {
+  figure {
+    background: pink;
+  }
+  #map {
+    width: 100%;
+    height: 400px;
+  }
+  .btnSet {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    ul {
+      display: flex;
+      li {
+        cursor: pointer;
+        border: 1px solid #999;
+        height: 30px;
+        padding: 5px 20px;
+        font-size: 14px;
+        color: #555;
+        margin: 0px 5px;
+        transition: 0.5s;
+        &.on {
+          background-color: #555;
+          color: #fff;
+          border: 1px solid #555;
+        }
+      }
+    }
+  }
+}
