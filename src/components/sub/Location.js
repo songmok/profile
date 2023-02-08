@@ -28,6 +28,7 @@ import Layout from "../common/Layout";
     }
   ]
 */
+
 const Location = () => {
   // public 폴더 참조
   const path = process.env.PUBLIC_URL;
