@@ -87,6 +87,7 @@ const Community = () => {
       })
     );
   };
+
   // 업데이트 취소
   const disapleUpdate = (idx) => {
     setAllowed(true);
