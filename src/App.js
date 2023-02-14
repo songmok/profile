@@ -14,6 +14,7 @@ import Location from "./components/sub/Location";
 import Gallery from "./components/sub/Gallery";
 // scss
 import "./scss/style.scss";
+import Schedule from "./components/sub/Scehdule";
 function App() {
   return (
     <>
@@ -48,6 +49,7 @@ function App() {
       {/* 라우터에 따라서 header의 css를 달리하겠다 */}
       <Route path="/department" component={Department} />
       <Route path="/community" component={Community} />
+      <Route path="/schedule" component={Schedule} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/youtube" component={Youtube} />
       <Route path="/location" component={Location} />
